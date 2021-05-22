@@ -26,6 +26,10 @@
         長距離武器
       </button>
     </div>
+    <p class="footer"
+      >© 2021 ayataka.juveism<br>
+      twitter @ayataka_juveism
+    </p>
   </div>
 </template>
 
@@ -121,7 +125,7 @@ export default {
 
 <style>
 .container {
-  padding: 20px;
+  padding: 40px;
   background: rgba(0, 15, 44, 0.9);
   margin: 0 auto;
   color: #fff;
@@ -160,7 +164,7 @@ export default {
 
 .weaponButtonsArea {
   margin: 0 auto;
-  width: 80vw;
+  width: 50vw;
 }
 
 .weaponButtonsArea > .button {
@@ -177,6 +181,12 @@ export default {
   border: 1px solid #fff;
   color:#fff;
   border-radius: 50px;
+}
+
+.footer {
+  padding: 80px;
+  text-align: center;
+  line-height: 1.4;
 }
 
 </style>
