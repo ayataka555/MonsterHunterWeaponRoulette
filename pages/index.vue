@@ -53,6 +53,10 @@ export default {
           src: require("@/assets/img/img_weapon_08.png"),
         },
         {
+          name: "チャージアックス",
+          src: require("@/assets/img/img_weapon_10.png"),
+        },
+        {
           name: "片手剣",
           src: require("@/assets/img/img_weapon_02.png"),
         }
@@ -77,10 +81,6 @@ export default {
         {
           name: "狩猟笛",
           src: require("@/assets/img/img_weapon_06.png"),
-        },
-        {
-          name: "チャージアックス",
-          src: require("@/assets/img/img_weapon_10.png"),
         },
         {
           name: "スラッシュアックス",
