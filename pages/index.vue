@@ -16,6 +16,9 @@
       </div>
     </div>
     <div class="weaponButtonsArea">
+      <button class="button" @click="allWeaponsRondom">
+        全種類
+      </button>
       <button class="button" @click="guardWeaponsRondom">
         ガード可能近接武器
       </button>
@@ -112,6 +115,10 @@ export default {
     },
     guardWeaponsRondom() {
       this.selectWeapon(this.guardWeaponsList)
+    },
+    allWeaponsRondom() {
+      const allWeapon = [].concat(this.gunsList,this.guardWeaponsList,this.noGuardWeaponsList)
+      this.selectWeapon(allWeapon)
     },
     selectWeapon(list) {
       const index = Math.floor(Math.random() * (list.length));
